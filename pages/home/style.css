@@ -3,7 +3,8 @@
     margin: 0 auto;
 }
 .logo{
-    display: flex;align-items: center;
+    display: flex;
+    align-items: center;
     margin-right: 20px;
     height: 28px;
 }
@@ -59,4 +60,37 @@
     border-radius: 5px;
     color: white;
     height: 36px;
+}
+.search{
+    margin-top: 18px;
+}
+.search__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding-left: 3px;
+    padding-bottom: 1px;
+    background-color: #256EEB;
+    border-radius: 5px;
+}
+.search__container input{
+    margin-top: 1px;
+    width: 100%;
+    border-radius: 5px;
+    border: 0px;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    height: 44px;
+    padding-left: 21.45px;
+}
+.search__loupe{
+    margin-left: 20px;
+}
+.search__find{
+    color: white;
+    font-size: 16px;
+    font-family: RobotoRegular;
+    margin-right: 20px;
+    margin-left: 6px;
 }
