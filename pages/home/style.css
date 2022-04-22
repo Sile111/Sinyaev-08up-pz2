@@ -8,6 +8,12 @@
     margin-right: 20px;
     height: 28px;
 }
+.header__logolink{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
 .logo__box{
     margin-right: 6px;
 }
@@ -23,6 +29,9 @@
     list-style: none;
     font-family: RobotoRegular;
     font-size: 14px;
+}
+.menu__item:hover{
+    text-decoration: underline;
 }
 .menu{
     width: 267px;
