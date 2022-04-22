@@ -80,11 +80,11 @@
     height: 50px;
     padding-left: 3px;
     padding-bottom: 1px;
+    padding-top: 1px;
     background-color: #256EEB;
     border-radius: 5px;
 }
 .search__container input{
-    margin-top: 1px;
     width: 100%;
     border-radius: 5px;
     border: 0px;
@@ -102,4 +102,42 @@
     font-family: RobotoRegular;
     margin-right: 20px;
     margin-left: 6px;
+}
+.recommendations{
+    margin-top: 42px;
+}
+.head{
+    font-family: RobotoBold;
+    font-size: 24px;
+}
+.firstcard__name{
+    font-family: RobotoBold;
+    font-size: 16px;
+    color: #256EEB;
+    margin: 0px;
+}
+.firstcard__desc{
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.firstcard{
+    max-width: 264px;
+}
+.cardsrow{
+    margin-top: 25px;
+}
+.firstcard__price{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: RobotoBold;
+    font-size: 16px;
+    color: black;
+}
+.firstcard__info{
+    margin-top: 0px;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    color: #C4C4C4;
+    margin-bottom: 4px;
 }
