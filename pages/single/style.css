@@ -2,6 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
+.header{
+    position: sticky;
+    background-color: white;
+}
 .wrapper{
     width: 1146px;
     margin: 0 auto;
@@ -34,12 +38,12 @@
     font-family: RobotoRegular;
     font-size: 14px;
 }
+.menu__item:hover{
+    text-decoration: underline;
+}
 .menu__item__odd{
     text-decoration: underline;
     color: #256EEB;
-}
-.menu__item:hover{
-    text-decoration: underline;
 }
 .menu{
     width: 267px;
@@ -117,74 +121,95 @@
     margin-top: 42px;
     margin-bottom: 25px;
 }
-.firstcard__name{
-    font-family: RobotoBold;
-    font-size: 16px;
-    color: #256EEB;
-    margin: 0px;
-}
-.firstcard__desc{
-    margin-top: 12px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-.firstcard{
-    max-width: 264px;
-    margin-right: 30px;
-}
-.cardsrow{
-    display: flex;
-    margin-bottom: 20px;
-}
-.firstcard__price{
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-family: RobotoBold;
-    font-size: 16px;
-    color: black;
-}
-.firstcard__price:hover{
-    color: #256EEB;
-}
-.firstcard__info{
-    margin-top: 0px;
-    font-family: RobotoRegular;
-    font-size: 14px;
-    color: #C4C4C4;
-    margin-bottom: 4px;
-}
-.recommendations{
+.goods{
     display: flex;
     flex-direction: column;
+}
+.imgcontainer{
+    display: flex;
+    max-width: 360px;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.imagewrapper{
+    margin: 0px;
+}
+.goods__desc{
+    font-family: RobotoRegular;
+    font-size: 12px;
+    color: black;
+    max-width: 460px;
+    margin-top: 30px;
+    line-height: 140%;
 }
 .mainwrapper{
     display: flex;
 }
-.services{
-    margin-top: 51px;
+.goods{
+    margin-right: 30px;
 }
-.name{
-    margin-bottom: 23px;
-    font-family: RobotoBold;
-    font-size: 18px;
+.author{
+    margin-right: 128px;
 }
-.s-list__itemname{
+.author__name{
     font-family: RobotoBold;
     font-size: 14px;
-    margin-top: 7px;
-    margin-bottom: 5px;
+    color: black;
 }
-.s-list__itemdesc{
+.author__review{
     font-family: RobotoRegular;
     font-size: 14px;
+    color: #0A143A;
+    margin-left: 10px;
+    margin-top: 7px;
+    margin-bottom: 8px;
 }
-.s-list__item{
-    margin-bottom: 25px;
-    max-width: 217px;
+.author__info{
+    font-family: RobotoRegular;
+    font-size: 12px;
+    color: black;
 }
-.s-list__item__odd{
-    max-width: 231px;
+.author__rating{
+    display: flex;
+}
+.author__profile{
+    width: 264px;
+    display: flex;
+    justify-content: space-between;
+}
+.author__buttons{
+    display: flex;
+    flex-direction: column;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.author__button1{
+    padding: 0px;
+    border: 0px;
+    background-color: #256EEB;
+    width: 264px;
+    height: 54px;
+    border-radius: 5px;
+    font-family: RobotoRegular;
+    color: white;
+    margin-bottom: 14px;
+}
+.author__button2{
+    padding: 0px;
+    border: 0px;
+    background-color: #14B4BE;
+    width: 264px;
+    height: 54px;
+    border-radius: 5px;
+    font-family: RobotoRegular;
+    color: white;
+}
+.banner{
+    margin-top: 42px;
+}
+.banner_wrapper1{
+    margin-bottom: 7px;
 }
 .footer__name{
     font-family: RobotoRegular;
@@ -217,7 +242,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 37px;
+    margin-top: 26px;
     margin-bottom: 18px;
 }
 .footer__listcontainer{
