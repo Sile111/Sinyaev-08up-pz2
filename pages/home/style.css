@@ -208,6 +208,9 @@
     color: black;
     margin-bottom: 5px;
 }
+.footer__listitem:hover{
+    color: #256EEB;
+}
 .line{
     height: 1px;
     display: flex;
