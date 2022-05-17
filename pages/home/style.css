@@ -120,12 +120,15 @@
     margin-top: 12px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 .firstcard{
     max-width: 264px;
+    margin-right: 30px;
 }
 .cardsrow{
     margin-top: 25px;
+    display: flex;
 }
 .firstcard__price{
     margin-top: 5px;
@@ -141,3 +144,8 @@
     color: #C4C4C4;
     margin-bottom: 4px;
 }
+.recommendations{
+    display: flex;
+    flex-direction: column;
+}
+
