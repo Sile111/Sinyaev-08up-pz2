@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .wrapper{
     width: 1146px;
     margin: 0 auto;
@@ -104,11 +108,13 @@
     margin-left: 6px;
 }
 .recommendations{
-    margin-top: 42px;
+
 }
 .head{
     font-family: RobotoBold;
     font-size: 24px;
+    margin-top: 42px;
+    margin-bottom: 25px;
 }
 .firstcard__name{
     font-family: RobotoBold;
@@ -127,8 +133,8 @@
     margin-right: 30px;
 }
 .cardsrow{
-    margin-top: 25px;
     display: flex;
+    margin-bottom: 20px;
 }
 .firstcard__price{
     margin-top: 5px;
@@ -136,6 +142,9 @@
     font-family: RobotoBold;
     font-size: 16px;
     color: black;
+}
+.firstcard__price:hover{
+    color: #256EEB;
 }
 .firstcard__info{
     margin-top: 0px;
@@ -148,4 +157,65 @@
     display: flex;
     flex-direction: column;
 }
-
+.mainwrapper{
+    display: flex;
+}
+.services{
+    margin-top: 51px;
+}
+.name{
+    margin-bottom: 23px;
+    font-family: RobotoBold;
+    font-size: 18px;
+}
+.s-list__itemname{
+    font-family: RobotoBold;
+    font-size: 14px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+.s-list__itemdesc{
+    font-family: RobotoRegular;
+    font-size: 14px;
+}
+.s-list__item{
+    margin-bottom: 25px;
+    max-width: 217px;
+}
+.s-list__item__odd{
+    max-width: 231px;
+}
+.footer__name{
+    font-family: RobotoRegular;
+    font-size: 14px;
+    color: #C4C4C4;
+    margin-bottom: 5px
+}
+.footer__link{
+    list-style: none;
+    text-decoration: none;
+}
+.footer__agreement{
+    font-family: RobotoRegular;
+    font-size: 14px;
+    color: #C4C4C4;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+.footer__listitem{
+    font-family: RobotoRegular;
+    font-size: 12px;
+    color: black;
+    margin-bottom: 5px;
+}
+.line{
+    height: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 37px;
+    margin-bottom: 18px;
+}
+.footer__listcontainer{
+    margin-top: 16px;
+}
