@@ -222,3 +222,8 @@
 .footer__listcontainer{
     margin-top: 16px;
 }
+.firstcard__link{
+    text-decoration: none;
+    width: 0px;
+    height: 0px;
+}
