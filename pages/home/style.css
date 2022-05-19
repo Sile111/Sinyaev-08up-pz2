@@ -35,7 +35,6 @@
     font-size: 14px;
 }
 .menu__item__odd{
-    text-decoration: underline;
     color: #256EEB;
 }
 .menu__item:hover{
